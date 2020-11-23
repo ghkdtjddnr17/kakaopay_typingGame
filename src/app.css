@@ -1,0 +1,88 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    font-size: 14px;
+    color: #333; 
+    
+}
+.container{
+    width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.header > span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.textInput{
+    width: 230px; 
+    height: 40px;
+    border: 0;
+    background-color:#46A1F8;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size:15px;
+}
+.textBox{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.textBox1{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+input,
+button:focus {
+    outline:none;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+input::placeholder {
+  color: #fff;
+}
+.startBtn{
+    width: 130px; 
+    height: 45px;
+    border: 0;
+    background-color:#46A1F8;
+    text-align: center;
+    color: #ffffff;
+    font-size:15px;
+    cursor: pointer;
+}
+.textPrint{
+    text-align: center; 
+    font-size:35px; 
+    font-weight: bold;
+}
+.resetBtn{
+    width: 130px; 
+    height: 45px;
+    border: 0;
+    background-color:#46A1F8;
+    text-align: center;
+    color: #ffffff;
+    font-size:15px;
+    cursor: pointer;
+}

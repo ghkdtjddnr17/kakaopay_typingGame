@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-signin">
+            <div class="sHeader">
+                <span>Mission Complete!</span>
+            </div>
+            <div style="margin-top:15px">
+                <div class="allScore" >당신의 점수는 <span></span> 점 입니다</div>
+            </div>
+                <div class="avgAnswer">
+                    <span>단어당 평균 답변 시간은 <span></span> 초 입니다.</span>
+                </div>
+                <div class="textBox1">
+                    <button type="button" class="reBtn">다시 시작</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    font-size: 14px;
+    color: #333; 
+    
+}
+.container{
+    width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.sHeader{
+    text-align: center;
+}
+.sHeader > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textInput{
+    width: 230px; 
+    height: 40px;
+    border: 0;
+    background-color:#46A1F8;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size:15px;
+}
+.avgAnswer{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.avgAnswer >span{
+   font-weight: bold;
+    
+}
+.textBox1{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+input,
+button:focus {
+    outline:none;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+input::placeholder {
+  color: #fff;
+}
+.reBtn{
+    width: 230px; 
+    height: 40px;
+    border: 0;
+    background-color:#46A1F8;
+    text-align: center;
+    color: #ffffff;
+    font-size:15px;
+    cursor: pointer;
+}
+.allScore{
+    text-align: center; 
+    font-size:25px; 
+    font-weight: bold;
+}
+.resetBtn{
+    width: 130px; 
+    height: 45px;
+    border: 0;
+    background-color:#46A1F8;
+    text-align: center;
+    color: #ffffff;
+    font-size:15px;
+    cursor: pointer;
+}
+</style>
